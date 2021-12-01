@@ -1,10 +1,12 @@
 import Link from 'next/link'
 
+import styles from './styles.module.scss'
+
 export function Navbar() {
   return (
-    <nav>
+    <nav className={styles.navContainer}>
       <Link href="/">
-        <a>Home</a>
+        <a>Navbar</a>
       </Link>
     </nav>
   )
