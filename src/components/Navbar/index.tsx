@@ -14,32 +14,42 @@ export function Navbar() {
     <nav className={styles.navbarContainer}>
       <Link href="/">
         <a>
-          <FaHome />
-          Home
+          <i>
+            <FaHome />
+          </i>
+          <span>Home</span>
         </a>
       </Link>
       <Link href="/">
         <a>
-          <FaUser />
-          Sobre
+          <i>
+            <FaUser />
+          </i>
+          <span>Sobre</span>
         </a>
       </Link>
       <Link href="/">
         <a>
-          <FaBriefcase />
-          Portfólio
+          <i>
+            <FaBriefcase />
+          </i>
+          <span>Portfólio</span>
         </a>
       </Link>
       <Link href="/">
         <a>
-          <FaBlog />
-          Blog
+          <i>
+            <FaBlog />
+          </i>
+          <span>Blog</span>
         </a>
       </Link>
       <Link href="/">
         <a>
-          <FaAddressBook />
-          Contato
+          <i>
+            <FaAddressBook />
+          </i>
+          <span>Contato</span>
         </a>
       </Link>
     </nav>

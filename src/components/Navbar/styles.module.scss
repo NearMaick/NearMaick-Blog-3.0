@@ -17,5 +17,33 @@
     flex: 1;
 
     padding: 2rem;
+    font-size: 2rem;
+
+    transition: 0.4s linear;
+
+    i {
+      color: var(--red-800);
+      padding-right: 0.5rem;
+    }
+  }
+
+  a:hover {
+    background: var(--red-800);
+
+    padding-bottom: 6rem;
+
+    i {
+      color: var(--white);
+    }
+  }
+
+  @media(max-width: 768px) {
+    a i {
+      padding: 0;
+    }
+
+    a span {
+      display: none;
+    }
   }
 }
