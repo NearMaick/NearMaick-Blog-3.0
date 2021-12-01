@@ -1,6 +1,7 @@
 :root {
   --gray-900: #0d0d0d;
   --gray-800: #1a1a1a;
+  --gray-100: #aaa;
   --white: #fff;
   --red-800: #DC143C;
 }
@@ -20,15 +21,16 @@
 html {
   font-size: 62.5%;
   overflow-x: hidden;
+
+  &::-webkit-scrollbar {
+    width: 1rem;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: var(--red-800);
+    border-radius: 5rem;
+  }
 }
-
-html::-webkit-scrollbar {
-
-}
-
-// html::-webkit-scrollbar {
-//   width: 1rem;
-// }
 
 body {
   background: var(--gray-900);
