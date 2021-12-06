@@ -20,7 +20,7 @@ export function Navbar() {
           <span>Home</span>
         </a>
       </Link>
-      <Link href="/">
+      <Link href="/about">
         <a>
           <i>
             <FaUser />

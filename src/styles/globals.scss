@@ -4,6 +4,7 @@
   --gray-100: #aaa;
   --white: #fff;
   --red-800: #DC143C;
+  --box-shadow-black: rgba(0, 0, 0, 0.7);
 }
 
 * {
@@ -35,4 +36,9 @@ html {
 body {
   background: var(--gray-900);
   color: var(--white);
+  padding-bottom: 6.5rem;
+}
+
+section {
+  padding: 5rem 9%;
 }
