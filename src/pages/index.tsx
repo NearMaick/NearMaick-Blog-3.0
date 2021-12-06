@@ -23,7 +23,7 @@ const Home: NextPage = () => {
           <h3>Olá, sou Maick Souza</h3>
           <span>JavaScript FullStack Developer</span>
           <p>Uma pessoa de hoje que sempre deseja ser melhor amanhã!</p>
-          <Link href="/">
+          <Link href="/about">
             <a className={styles.linkButton}>
               <div>
                 Sobre mim
