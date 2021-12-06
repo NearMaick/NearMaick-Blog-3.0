@@ -42,3 +42,9 @@ body {
 section {
   padding: 5rem 9%;
 }
+
+@media(max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+}

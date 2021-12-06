@@ -28,6 +28,16 @@
         background: var(--gray-800);
         box-shadow: var(--box-shadow-black);
         border-radius: 0.5rem;
+
+        h3 {
+          font-size: 5rem;
+          color: var(--red-800);
+        }
+
+        p {
+          font-size: 2rem;
+          color: var(--gray-100);
+        }
       }
     }
   }
