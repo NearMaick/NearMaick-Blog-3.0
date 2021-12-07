@@ -1,8 +1,6 @@
-import Image from 'next/image'
 import Link from 'next/link'
 import { FaDownload, FaGraduationCap } from 'react-icons/fa'
 
-import Image01 from '../../public/images/icon-1.png'
 import styles from '../styles/About.module.scss'
 
 export default function About() {

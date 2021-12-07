@@ -1,11 +1,5 @@
 import Link from 'next/link'
-import {
-  FaAddressBook,
-  FaBlog,
-  FaBriefcase,
-  FaHome,
-  FaUser,
-} from 'react-icons/fa'
+import { FaBlog, FaHome, FaUser } from 'react-icons/fa'
 
 import styles from './styles.module.scss'
 
@@ -28,28 +22,13 @@ export function Navbar() {
           <span>Sobre</span>
         </a>
       </Link>
-      <Link href="/">
-        <a>
-          <i>
-            <FaBriefcase />
-          </i>
-          <span>Portfólio</span>
-        </a>
-      </Link>
+
       <Link href="/">
         <a>
           <i>
             <FaBlog />
           </i>
           <span>Blog</span>
-        </a>
-      </Link>
-      <Link href="/">
-        <a>
-          <i>
-            <FaAddressBook />
-          </i>
-          <span>Contato</span>
         </a>
       </Link>
     </nav>
