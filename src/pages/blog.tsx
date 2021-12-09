@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { FaCalendar, FaLink, FaUser } from 'react-icons/fa'
 
 import styles from '../styles/Blog.module.scss'
@@ -29,12 +30,14 @@ export default function Blog() {
               illum.
             </p>
           </div>
-          <a className={styles.linkButton} href="#">
-            <div>
-              <FaLink />
-              Leia Mais...
-            </div>
-          </a>
+          <Link href="/post/batata">
+            <a className={styles.linkButton} href="#">
+              <div>
+                <FaLink />
+                Leia Mais...
+              </div>
+            </a>
+          </Link>
         </div>
         <div className={styles.box}>
           <div className={styles.image}>

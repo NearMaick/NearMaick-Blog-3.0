@@ -23,7 +23,7 @@ export function Navbar() {
         </a>
       </Link>
 
-      <Link href="/">
+      <Link href="/blog">
         <a>
           <i>
             <FaBlog />

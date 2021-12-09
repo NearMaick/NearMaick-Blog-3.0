@@ -1,0 +1,115 @@
+.heading {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 6vw;
+  margin: 3rem 0 3rem;
+
+  span {
+    text-transform: uppercase;
+    color: var(--red-800);
+  }
+
+  @media (max-width: 768px) {
+    font-size: 10vw;
+  }
+}
+
+.blogContainer {
+  padding: 2rem;
+
+  .box {
+    text-align: center;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    background: var(--gray-800);
+    box-shadow: var(--box-shadow-black);
+
+    .image:hover img {
+      transform: scale(1.2);
+    }
+
+    .image {
+      height: 50rem;
+      width: 100%;
+      border-radius: 0.5rem;
+      overflow: hidden;
+
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        transition: 0.4s linear;
+      }
+    }
+
+    .content {
+      div {
+        position: relative;
+        margin-top: -1rem;
+
+        background: var(--gray-900);
+        padding: 1.5rem;
+        display: inline-block;
+        border-radius: 0.5rem;
+
+        font-size: 1.4rem;
+
+        div {
+          display: flex;
+
+          svg {
+            height: 2rem;
+            width: 2rem;
+            margin: 0 0.5rem 0;
+            padding: 0 0.5rem 0 0.5rem;
+            color: var(--red-800);
+          }
+        }
+
+      }
+
+      h3 {
+        font-size: 4rem;
+        font-weight: normal;
+      }
+
+      p {
+        font-size: 2rem;
+        text-align: justify;
+        color: var(--gray-100);
+        padding: 1rem 0;
+        line-height: 2;
+      }
+    }
+  }
+  .linkButton {
+    display: inline-block;
+    margin-top: 1rem;
+    background: var(--red-800);
+    color: var(--white);
+    padding: 0.7rem;
+    font-size: 1.7rem;
+    border-radius: 5rem;
+
+    div {
+      display: flex;
+      align-items: center;
+
+      svg {
+        height: 4rem;
+        width: 4rem;
+        padding: 1rem;
+        background: var(--white);
+        color: var(--red-800);
+        border-radius: 50%;
+        margin-right: 1rem;
+        transition: .4s linear;
+      }
+    }
+
+    &:hover svg {
+      margin: 0 2rem 0 1rem;
+    }
+  }
+
+}
