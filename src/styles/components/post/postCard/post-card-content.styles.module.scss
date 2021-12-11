@@ -1,0 +1,38 @@
+.content {
+  div {
+    position: relative;
+    margin-top: -1rem;
+
+    background: var(--gray-900);
+    padding: 1.5rem;
+    display: inline-block;
+    border-radius: 0.5rem;
+
+    font-size: 1.4rem;
+
+    div {
+      display: flex;
+
+      svg {
+        height: 2rem;
+        width: 2rem;
+        margin: 0 0.5rem 0;
+        padding: 0 0.5rem 0 0.5rem;
+        color: var(--red-800);
+      }
+    }
+
+  }
+
+  h3 {
+    font-size: 2rem;
+    font-weight: normal;
+  }
+
+  p {
+    font-size: 1.5rem;
+    color: var(--gray-100);
+    padding: 1rem 0;
+    line-height: 2;
+  }
+}
