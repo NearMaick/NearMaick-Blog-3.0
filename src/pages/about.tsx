@@ -37,7 +37,7 @@ export default function About() {
                 </h3>
               </div>
             </div>
-            <LinkButton link="/" icon={FaDownload} />
+            <LinkButton link="/" description="Baixar CV" icon={FaDownload} />
           </div>
           <div className={styles.countContainer}>
             <div>

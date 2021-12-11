@@ -6,16 +6,17 @@ import styles from '../styles/components/linkbutton.styles.module.scss'
 
 type LinkButtonProps = {
   link: string
+  description: string
   icon: ComponentType<IconBaseProps>
 }
 
-export function LinkButton({ link, icon: Icon }: LinkButtonProps) {
+export function LinkButton({ link, description, icon: Icon }: LinkButtonProps) {
   return (
     <>
       <Link href={link}>
         <a className={styles.linkButton}>
           <div>
-            Sobre mim
+            {description}
             <Icon />
           </div>
         </a>

@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { FaCalendar, FaLink, FaUser } from 'react-icons/fa'
 
-import styles from '../styles/Blog.module.scss'
+import styles from '../styles/pages/Blog.module.scss'
 
 export default function Blog() {
   return (

@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import { FaUser } from 'react-icons/fa'
 
 import { LinkButton } from '../components/LinkButton'
 import styles from '../styles/pages/Home.module.scss'
@@ -22,7 +23,7 @@ const Home: NextPage = () => {
           <h3>Olá, sou Maick Souza</h3>
           <span>JavaScript FullStack Developer</span>
           <p>Uma pessoa de hoje que sempre deseja ser melhor amanhã!</p>
-          <LinkButton />
+          <LinkButton link="/about" description="Sobre mim" icon={FaUser} />
         </div>
       </section>
     </>
