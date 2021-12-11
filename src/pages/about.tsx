@@ -2,6 +2,7 @@ import { FaGraduationCap } from 'react-icons/fa'
 
 import { InfoCard } from '../components/about/InfoCard'
 import { ProjectCount } from '../components/about/ProjectCount'
+import { SkillsList } from '../components/about/SkillsList'
 import { Heading } from '../components/Heading'
 import styles from '../styles/pages/About.module.scss'
 
@@ -17,33 +18,7 @@ export default function About() {
       </section>
       <section>
         <Heading title="minhas habilidades" subtitle="técnicas" />
-
-        <div className={styles.skillsContainer}>
-          <div>
-            <img src="images/icon-1.png" alt="image" />
-            <h3>html</h3>
-          </div>
-          <div>
-            <img src="images/icon-2.png" alt="image" />
-            <h3>css</h3>
-          </div>
-          <div>
-            <img src="/images/icon-3.png" alt="image" />
-            <h3>javascript</h3>
-          </div>
-          <div>
-            <img src="/images/icon-4.png" alt="image" />
-            <h3>sass</h3>
-          </div>
-          <div>
-            <img src="/images/icon-5.png" alt="image" />
-            <h3>jquery</h3>
-          </div>
-          <div>
-            <img src="/images/icon-6.png" alt="image" />
-            <h3>react.js</h3>
-          </div>
-        </div>
+        <SkillsList />
       </section>
       <section>
         <div className={styles.educationContainer}>

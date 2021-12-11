@@ -5,46 +5,6 @@
 
 }
 
-.skillsContainer {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
-  gap: 1.5rem;
-
-  div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    padding: 2rem;
-    text-align: center;
-    box-shadow: var(--box-shadow-black);
-    background: var(--gray-800);
-    border-radius: 0.5rem;
-
-    transition: 0.4s linear;
-
-    &:hover {
-      background: var(--white);
-
-      h3 {
-        color: var(--gray-900);
-      }
-    }
-
-    h3 {
-      font-size: 1.7rem;
-      font-weight: normal;
-      text-transform: uppercase;
-    }
-
-    img {
-      height: 7rem;
-      margin-bottom: 1rem;
-    }
-  }
-}
-
 .educationContainer {
   display: flex;
   flex-wrap: wrap;
