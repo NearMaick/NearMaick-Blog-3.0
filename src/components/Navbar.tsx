@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { FaBlog, FaHome, FaUser } from 'react-icons/fa'
 
-import styles from './styles.module.scss'
+import styles from '../styles/components/navbar.styles.module.scss'
 
 export function Navbar() {
   return (
