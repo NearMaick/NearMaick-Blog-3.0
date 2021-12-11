@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { ComponentType } from 'react'
 import { IconBaseProps } from 'react-icons'
 
-import styles from '../styles/components/linkbutton.styles.module.scss'
+import styles from '../styles/components/link-button.styles.module.scss'
 
 type LinkButtonProps = {
   link: string

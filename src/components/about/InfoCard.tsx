@@ -1,6 +1,6 @@
 import { FaDownload } from 'react-icons/fa'
 
-import styles from '../../styles/components/about/infocard.styles.module.scss'
+import styles from '../../styles/components/about/info-card.styles.module.scss'
 import { LinkButton } from '../LinkButton'
 
 export function InfoCard() {

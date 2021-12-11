@@ -1,4 +1,4 @@
-import styles from '../../styles/components/about/projectcount.styles.module.scss'
+import styles from '../../styles/components/about/project-count.styles.module.scss'
 
 export function ProjectCount() {
   return (
