@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { FaCalendar, FaClock, FaLongArrowAltLeft } from 'react-icons/fa'
 
-import styles from '../../styles/post/Post.module.scss'
+import styles from '../../styles/pages/post/Post.module.scss'
 
 export default function Post() {
   return (

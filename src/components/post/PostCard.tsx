@@ -2,9 +2,10 @@ import { FaCalendar, FaLink, FaUser } from 'react-icons/fa'
 
 import styles from '../../styles/components/post/post-card.styles.module.scss'
 import { LinkButton } from '../LinkButton'
+
 export function PostCard() {
   return (
-    <div className={styles.box}>
+    <section className={styles.box}>
       <div className={styles.image}>
         <img src="/images/blog1.jpg" alt="blog" />
       </div>
@@ -22,6 +23,6 @@ export function PostCard() {
         </p>
       </div>
       <LinkButton link="/post/batata" icon={FaLink} description="leia mais" />
-    </div>
+    </section>
   )
 }
