@@ -1,6 +1,6 @@
-import { FaDownload, FaGraduationCap } from 'react-icons/fa'
+import { FaGraduationCap } from 'react-icons/fa'
 
-import { LinkButton } from '../components/LinkButton'
+import { InfoCard } from '../components/about/InfoCard'
 import styles from '../styles/pages/About.module.scss'
 
 export default function About() {
@@ -11,34 +11,7 @@ export default function About() {
           sobre <span>mim</span>
         </h1>
         <div className={styles.row}>
-          <div className={styles.infoContainer}>
-            <h1>informações pessoais</h1>
-            <div className={styles.boxContainer}>
-              <div>
-                <h3>
-                  <span>nome : </span>Maick Souza
-                </h3>
-                <h3>
-                  <span>email : </span>maick_a_s@msn.com
-                </h3>
-                <h3>
-                  <span>nome : </span>Maick Souza
-                </h3>
-              </div>
-              <div>
-                <h3>
-                  <span>habilidades : </span>full-stack
-                </h3>
-                <h3>
-                  <span>email : </span>maick_a_s@msn.com
-                </h3>
-                <h3>
-                  <span>nome : </span>Maick Souza
-                </h3>
-              </div>
-            </div>
-            <LinkButton link="/" description="Baixar CV" icon={FaDownload} />
-          </div>
+          <InfoCard />
           <div className={styles.countContainer}>
             <div>
               <h3>1+</h3>

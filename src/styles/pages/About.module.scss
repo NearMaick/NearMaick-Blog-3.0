@@ -39,74 +39,11 @@
   }
 }
 
-.infoContainer {
-  flex: 1 1 42rem;
-
-  h1 {
-    font-size: 3rem;
-    text-transform: uppercase;
-    padding-bottom: 1rem;
-  }
-}
-
 .row {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
 
-}
-
-.boxContainer {
-  padding: 1rem 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-
-  div {
-    flex: 1 1 20rem;
-  }
-
-  h3 {
-    font-size: 1.7rem;
-    padding: 1rem 0;
-    font-weight: normal;
-
-    span {
-      color: var(--gray-100);
-      font-weight: lighter;
-    }
-  }
-}
-
-.linkButton {
-  display: inline-block;
-  margin-top: 1rem;
-  background: var(--red-800);
-  color: var(--white);
-  padding: 0.7rem;
-  font-size: 1.7rem;
-  border-radius: 5rem;
-  padding-left: 2rem;
-
-  div {
-    display: flex;
-    align-items: center;
-
-    svg {
-      height: 4rem;
-      width: 4rem;
-      padding: 1rem;
-      background: var(--white);
-      color: var(--red-800);
-      border-radius: 50%;
-      margin-left: 1rem;
-      transition: .2s linear;
-    }
-  }
-
-  &:hover svg {
-    margin-left: 2rem;
-  }
 }
 
 .skillsContainer {

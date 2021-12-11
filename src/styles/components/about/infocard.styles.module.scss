@@ -1,0 +1,31 @@
+.infoContainer {
+  flex: 1 1 42rem;
+
+  h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+  }
+}
+
+.boxContainer {
+  padding: 1rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+
+  div {
+    flex: 1 1 20rem;
+  }
+
+  h3 {
+    font-size: 1.7rem;
+    padding: 1rem 0;
+    font-weight: normal;
+
+    span {
+      color: var(--gray-100);
+      font-weight: lighter;
+    }
+  }
+}
