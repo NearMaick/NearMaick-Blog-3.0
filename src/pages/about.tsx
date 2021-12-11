@@ -1,6 +1,7 @@
 import { FaGraduationCap } from 'react-icons/fa'
 
 import { InfoCard } from '../components/about/InfoCard'
+import { ProjectCount } from '../components/about/ProjectCount'
 import { Heading } from '../components/Heading'
 import styles from '../styles/pages/About.module.scss'
 
@@ -11,24 +12,7 @@ export default function About() {
         <Heading title="sobre" subtitle="mim" />
         <div className={styles.row}>
           <InfoCard />
-          <div className={styles.countContainer}>
-            <div>
-              <h3>1+</h3>
-              <p>desenvolvendo projetos</p>
-            </div>
-            <div>
-              <h3>1+</h3>
-              <p>desenvolvendo projetos</p>
-            </div>
-            <div>
-              <h3>1+</h3>
-              <p>desenvolvendo projetos</p>
-            </div>
-            <div>
-              <h3>1+</h3>
-              <p>desenvolvendo projetos</p>
-            </div>
-          </div>
+          <ProjectCount />
         </div>
       </section>
       <section>

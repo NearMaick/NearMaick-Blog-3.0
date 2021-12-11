@@ -1,28 +1,3 @@
-.countContainer {
-  display: flex;
-  flex: 1 1 42rem;
-  flex-wrap: wrap;
-  gap: 2rem;
-
-  div {
-    flex: 1 1 20rem;
-    padding: 3rem 4rem;
-    background: var(--gray-800);
-    box-shadow: var(--box-shadow-black);
-    border-radius: 0.5rem;
-
-    h3 {
-      font-size: 5rem;
-      color: var(--red-800);
-    }
-
-    p {
-      font-size: 2rem;
-      color: var(--gray-100);
-    }
-  }
-}
-
 .row {
   display: flex;
   flex-wrap: wrap;
