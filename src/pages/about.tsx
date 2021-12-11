@@ -1,15 +1,14 @@
 import { FaGraduationCap } from 'react-icons/fa'
 
 import { InfoCard } from '../components/about/InfoCard'
+import { Heading } from '../components/Heading'
 import styles from '../styles/pages/About.module.scss'
 
 export default function About() {
   return (
     <>
       <section>
-        <h1 className={styles.heading}>
-          sobre <span>mim</span>
-        </h1>
+        <Heading title="sobre" subtitle="mim" />
         <div className={styles.row}>
           <InfoCard />
           <div className={styles.countContainer}>
@@ -33,9 +32,7 @@ export default function About() {
         </div>
       </section>
       <section>
-        <h1 className={styles.heading}>
-          Minhas habilidades <span>técnicas</span>
-        </h1>
+        <Heading title="minhas habilidades" subtitle="técnicas" />
 
         <div className={styles.skillsContainer}>
           <div>
@@ -66,9 +63,7 @@ export default function About() {
       </section>
       <section>
         <div className={styles.educationContainer}>
-          <h1 className={styles.heading}>
-            minhas <span>qualificações</span>
-          </h1>
+          <Heading title="minhas" subtitle="qualificações" />
           <div>
             <i>
               <FaGraduationCap />
