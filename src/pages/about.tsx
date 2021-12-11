@@ -1,7 +1,7 @@
-import Link from 'next/link'
 import { FaDownload, FaGraduationCap } from 'react-icons/fa'
 
-import styles from '../styles/About.module.scss'
+import { LinkButton } from '../components/LinkButton'
+import styles from '../styles/pages/About.module.scss'
 
 export default function About() {
   return (
@@ -37,14 +37,7 @@ export default function About() {
                 </h3>
               </div>
             </div>
-            <Link href="/">
-              <a className={styles.linkButton}>
-                <div>
-                  Baixar CV
-                  <FaDownload />
-                </div>
-              </a>
-            </Link>
+            <LinkButton link="/" icon={FaDownload} />
           </div>
           <div className={styles.countContainer}>
             <div>

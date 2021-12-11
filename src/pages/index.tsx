@@ -1,7 +1,5 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Link from 'next/link'
-import { FaUser } from 'react-icons/fa'
 
 import { LinkButton } from '../components/LinkButton'
 import styles from '../styles/pages/Home.module.scss'

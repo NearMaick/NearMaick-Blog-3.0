@@ -1,16 +1,22 @@
 import Link from 'next/link'
-import { FaUser } from 'react-icons/fa'
+import { ComponentType } from 'react'
+import { IconBaseProps } from 'react-icons'
 
 import styles from '../styles/components/linkbutton.styles.module.scss'
 
-export function LinkButton() {
+type LinkButtonProps = {
+  link: string
+  icon: ComponentType<IconBaseProps>
+}
+
+export function LinkButton({ link, icon: Icon }: LinkButtonProps) {
   return (
     <>
-      <Link href="/about">
+      <Link href={link}>
         <a className={styles.linkButton}>
           <div>
             Sobre mim
-            <FaUser />
+            <Icon />
           </div>
         </a>
       </Link>
