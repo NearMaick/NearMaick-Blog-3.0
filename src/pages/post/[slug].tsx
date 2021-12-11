@@ -1,14 +1,13 @@
 import Link from 'next/link'
 import { FaCalendar, FaClock, FaLongArrowAltLeft } from 'react-icons/fa'
 
+import { Heading } from '../../components/Heading'
 import styles from '../../styles/pages/post/Post.module.scss'
 
 export default function Post() {
   return (
-    <div>
-      <h1 className={styles.heading}>
-        nearmaick <span>blog</span>
-      </h1>
+    <>
+      <Heading title="nearmaick" subtitle="blog" />
       <div className={styles.blogContainer}>
         <div className={styles.box}>
           <div className={styles.image}>
@@ -96,6 +95,6 @@ export default function Post() {
           </Link>
         </div>
       </div>
-    </div>
+    </>
   )
 }
