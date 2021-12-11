@@ -1,5 +1,4 @@
-import { FaGraduationCap } from 'react-icons/fa'
-
+import { GraduationList } from '../components/about/GraduationList'
 import { InfoCard } from '../components/about/InfoCard'
 import { ProjectCount } from '../components/about/ProjectCount'
 import { SkillsList } from '../components/about/SkillsList'
@@ -21,45 +20,7 @@ export default function About() {
         <SkillsList />
       </section>
       <section>
-        <div className={styles.educationContainer}>
-          <Heading title="minhas" subtitle="qualificações" />
-          <div>
-            <i>
-              <FaGraduationCap />
-            </i>
-            <span>2011 - 2015</span>
-            <h3>Graduado em sistemas de informação</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-              explicabo magni est quo vitae quis veritatis fugiat optio placeat
-              enim!
-            </p>
-          </div>
-          <div>
-            <i>
-              <FaGraduationCap />
-            </i>
-            <span>2011 - 2015</span>
-            <h3>Graduado em sistemas de informação</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-              explicabo magni est quo vitae quis veritatis fugiat optio placeat
-              enim!
-            </p>
-          </div>
-          <div>
-            <i>
-              <FaGraduationCap />
-            </i>
-            <span>2011 - 2015</span>
-            <h3>Graduado em sistemas de informação</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-              explicabo magni est quo vitae quis veritatis fugiat optio placeat
-              enim!
-            </p>
-          </div>
-        </div>
+        <GraduationList />
       </section>
     </>
   )
