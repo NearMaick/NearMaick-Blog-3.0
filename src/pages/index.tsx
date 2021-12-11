@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { FaUser } from 'react-icons/fa'
 
+import { LinkButton } from '../components/LinkButton'
 import styles from '../styles/pages/Home.module.scss'
 
 const Home: NextPage = () => {
@@ -23,14 +24,7 @@ const Home: NextPage = () => {
           <h3>Olá, sou Maick Souza</h3>
           <span>JavaScript FullStack Developer</span>
           <p>Uma pessoa de hoje que sempre deseja ser melhor amanhã!</p>
-          <Link href="/about">
-            <a className={styles.linkButton}>
-              <div>
-                Sobre mim
-                <FaUser />
-              </div>
-            </a>
-          </Link>
+          <LinkButton />
         </div>
       </section>
     </>
