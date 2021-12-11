@@ -15,19 +15,10 @@ export function InfoCard() {
           <h3>
             <span>email : </span>maick_a_s@msn.com
           </h3>
-          <h3>
-            <span>nome : </span>Maick Souza
-          </h3>
         </div>
         <div>
           <h3>
-            <span>habilidades : </span>full-stack
-          </h3>
-          <h3>
-            <span>email : </span>maick_a_s@msn.com
-          </h3>
-          <h3>
-            <span>nome : </span>Maick Souza
+            <span>habilidades : </span>Full-stack
           </h3>
         </div>
       </div>

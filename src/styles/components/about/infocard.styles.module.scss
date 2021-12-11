@@ -22,10 +22,11 @@
     font-size: 1.7rem;
     padding: 1rem 0;
     font-weight: normal;
+    text-transform: none;
 
     span {
       color: var(--gray-100);
-      font-weight: lighter;
+      font-weight: 300;
     }
   }
 }
